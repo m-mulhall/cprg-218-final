@@ -1,1 +1,40 @@
 
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: white;
+  justify-items: center;
+  align-items: center;
+}
+
+nav{
+  justify-items: center;
+  text-align: center;
+  background-color: #718ea7;
+  width: 100%;
+  padding: 1rem;
+}
+
+nav ul li a{
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+
+body{
+  background-color: #718ea7;
+  font-family: sans-serif;
+}
+
+footer{
+  text-align: center;
+  padding: 25px;
+  color: #414a52;
+  background-color: white;
+}
