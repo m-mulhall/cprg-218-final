@@ -114,10 +114,6 @@ footer{
       list-style-type: none;
     }
 
-    h1{
-      text-align: center;
-    }
-
     p#tagline{
       text-align: center;
     }
@@ -165,10 +161,6 @@ footer{
 
     nav ul li a{
       color: #414a52;
-    }
-
-    h1{
-      text-align: center;
     }
 
     p#tagline{
