@@ -1,0 +1,207 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #414a52;
+  font-family: sans-serif;
+  color: white;
+}
+
+header{
+  padding-top: 1rem;
+  background-color: white;
+  justify-items: center;
+  align-items: center;
+}
+
+nav{
+  justify-items: center;
+  text-align: center;
+  background-color: #718ea7;
+  width: 100%;
+  padding: 1rem;
+}
+
+nav ul li a{
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+
+h1{
+  color: white;
+  padding: 1rem;
+}
+
+p{
+  text-align: left;
+  font-size: medium;
+  font-weight: lighter;
+  padding: 1rem;
+}
+
+h2{
+  text-align: left;
+  color: #fcbc56;
+  padding-left: 1rem;
+}
+
+figure img{
+  max-width: 650px;
+  border: 5px solid white;
+}
+section{
+  padding-left: 1rem;
+}
+
+ul#accomodations{
+  padding-left: 1.5rem;
+}
+
+ul#accessible{
+  padding: 0 0 1rem 2.5rem;
+}
+
+footer{
+  text-align: center;
+  padding: 25px;
+  color: #414a52;
+  background-color: white;
+}
+@media screen and (min-width:1000px){
+
+  nav ul li{
+    display: inline;
+    padding: 3rem;
+  }
+  
+  h2{
+    padding-top: 1rem;
+  }
+
+  div#container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem 3rem;
+    margin: 1rem;
+  }
+
+  h3{
+    padding: 0.5rem 0 0.5rem 0;
+  }
+
+  figure img{
+    width: 100%;
+    height: auto;
+  }
+
+  figcaption{
+    font-size: medium;
+    font-weight: lighter;
+  }
+}
+
+  @media screen and (min-width: 768px) and (max-width: 999px){
+
+    nav ul li{
+      display: inline;
+      padding: 2rem;
+    }
+  
+    nav ul li a{
+      text-decoration: none;
+      list-style-type: none;
+    }
+
+    h1{
+      text-align: center;
+    }
+
+    p#tagline{
+      text-align: center;
+    }
+  
+    h2{
+      padding-top: 1rem;
+    }
+  
+    div#container{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem 4rem;
+      margin: 2rem;
+    }
+  
+    figure img{
+      width: 100%;
+      height: auto;
+    }
+  
+    figcaption{
+      text-align: center;
+      font-size: medium;
+      font-weight: lighter;
+    }
+
+    ul#accomodations{
+      text-align: left;
+    }
+  }
+
+  @media screen and (max-width: 767px){
+
+    nav ul{
+      display: grid;
+      width: 100%;
+      gap: 0.5rem;
+    }
+  
+    nav ul li{
+      display: inline;
+      grid-template-rows: repeat(3, 1fr);
+      background-color: white;
+      border: 2px solid #414a52;
+      padding: 1rem;
+    }
+
+    nav ul li a{
+      color: #414a52;
+    }
+
+    h1{
+      text-align: center;
+    }
+
+    p#tagline{
+      text-align: center;
+    }
+
+    h2{
+      padding-top: 1rem;
+    }
+  
+    div#container{
+      display: grid;
+      grid-template-columns: 1fr;
+      padding: 1rem 2rem;
+      gap: 1rem;
+    }
+  
+    h3{
+      padding: 0.5rem 0 0.5rem 0;
+    }
+  
+    figure img{
+      width: 100%;
+      height: auto;
+    }
+  
+    figcaption{
+      font-size: medium;
+      font-weight: lighter;
+    }
+  }
