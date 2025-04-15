@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Shangri-La Accomodations</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="accomodations.css">
   <link rel="icon" href="media/favicon.png">
 </head>
 
@@ -23,8 +23,8 @@
   </header>
 
   <main>
-    <h1>Our Luxurious Guest Rooms</h1>
-    <p>Experience unparalleled comfort and breathtaking views in our elegantly appointed guest rooms and suites.</p>
+    <h1 id="title">Our Luxurious Guest Rooms</h1>
+    <p id="tagline">Experience unparalleled comfort and breathtaking views in our elegantly appointed guest rooms and suites.</p>
 
     <div id="container">
       <figure>
@@ -32,8 +32,10 @@
         <figcaption>
           <h2>Ocean View Deluxe Room</h2>
           <p>From your private balcony, indulge in stunning panoramic views of the ocean. These rooms offer the perfect blend of comfort and style.</p>
-          <ul>
+          <ul id="accomodations">
             <li>King-Sized Bed</li>
+            <li>Private Balcony with Ocean View</li>
+            <li>En-suite Bathroom with Rain Shower</li>
             <li>Seating Area</li>
             <li>Complimentary Wi-Fi</li>
             <li>Flat-Screen TV</li>
@@ -47,11 +49,12 @@
         <figcaption>
           <h2>Beachfront Suite</h2>
           <p>Step directly onto the sand from your spacious suite. Enjoy the ultimate beachfront experience with added luxury and privacy.</p>
-          <ul>
+          <ul id="accomodations">
             <li>King-Sized Bed</li>
             <li>Separate Living Area</li>
-            <li>Seperate Dining Area</li>
             <li>Private Terrace with Direct Beach Access</li>
+            <li>En-suite Bathroom with Soaking Tub and Separate Shower</li>
+            <li>Dining Area</li>
             <li>Complimentary Wi-Fi</li>
             <li>Multiple Flat-screen TV's</li>
             <li>Mini-Bar</li>
@@ -64,9 +67,10 @@
         <figcaption>
           <h2>Garden View Room</h2>
           <p>These rooms are perfect for families and offer ample space and a tranquil view of our lavish gardens.</p>
-          <ul>
+          <ul id="accomodations">
             <li>Two Double Beds</li>
             <li>Private Balcony with Garden Views</li>
+            <li>En-suite Bathroom</li>
             <li>Seating Area</li>
             <li>Complimentary Wi-Fi</li>
             <li>Flat-Screen TV</li>
@@ -74,11 +78,29 @@
           </ul>
         </figcaption>
       </figure>
+
+      <figure>
+        <img src="media/single.jpg">
+        <figcaption>
+          <h2>Premium Oceanfront Suite with Plunge Pool</h2>
+          <p>Experience the epitome of luxury. This exclusive suite features a private plunge pool and unparalleled ocean views.</p>
+          <ul id="accomodations">
+            <li>King-Sized Bed</li>
+            <li>Separate Living and Dining Areas</li>
+            <li>Expansive Private Terrace with Plunge Pool and Sun Loungers</li>
+            <li>En-suite Bathroom with Jacuzzi Tub and Separate Rain Shower</li>
+            <li>Butler Service (Upon Request)</li>
+            <li>Complimentary Premium Wi-Fi</li>
+            <li>Multiple Smart TVs</li>
+            <li>Fully Stocked Mini-Bar</li>
+          </ul>
+        </figcaption>
+      </figure>
     </div>
 
     <h2>Accessible Room</h2>
     <p>Designed for guests with mobility needs. These rooms offer comfort and accessibility features.</p>
-    <ul>
+    <ul id="accessible">
       <li>King-Sized Bed</li>
       <li>Spacious Layout for Wheelchair Accessibility</li>
       <li>Accessible Bathroom with Grab Bars and a Roll-In Shower</li>
@@ -88,7 +110,6 @@
       <li>Flat-Screen TV</li>
       <li>Mini-Bar</li>
     </ul>
-
   </main>
   <footer>
     <small>&copy; Shangri-La 2025.</small>
