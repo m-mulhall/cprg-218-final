@@ -15,7 +15,7 @@ header{
   padding-top: 1rem;
   background-color: white;
   justify-items: center;
-  align-items: center;
+  text-align: center;
 }
 
 nav{
@@ -54,8 +54,10 @@ figure img{
   max-width: 650px;
   border: 5px solid white;
 }
-section{
-  padding-left: 1rem;
+
+figcaption{
+  font-size: medium;
+  font-weight: lighter;
 }
 
 ul#accomodations{
@@ -98,11 +100,6 @@ footer{
     width: 100%;
     height: auto;
   }
-
-  figcaption{
-    font-size: medium;
-    font-weight: lighter;
-  }
 }
 
   @media screen and (min-width: 768px) and (max-width: 999px){
@@ -143,8 +140,6 @@ footer{
   
     figcaption{
       text-align: center;
-      font-size: medium;
-      font-weight: lighter;
     }
 
     ul#accomodations{
@@ -198,10 +193,5 @@ footer{
     figure img{
       width: 100%;
       height: auto;
-    }
-  
-    figcaption{
-      font-size: medium;
-      font-weight: lighter;
     }
   }
