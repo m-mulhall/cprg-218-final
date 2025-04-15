@@ -1,1 +1,213 @@
 
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #414a52;
+  font-family: sans-serif;
+  color: white;
+}
+
+header{
+  padding-top: 1rem;
+  background-color: white;
+  justify-items: center;
+  text-align: center;
+}
+
+nav{
+  justify-items: center;
+  text-align: center;
+  background-color: #718ea7;
+  width: 100%;
+  padding: 1rem;
+}
+
+nav ul li a{
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+
+h1{
+  color: white;
+  padding: 1rem;
+}
+
+p{
+  font-size: large;
+  font-weight: lighter;
+  padding: 1rem;
+  text-align: left;
+}
+
+figure img{
+  max-width: 650px;
+  border: 5px solid white;
+}
+
+figure:last-of-type{
+  display: grid;
+  grid-column: span 2;
+  place-items: center;
+}
+
+h2{
+  text-align: left;
+  color: white;
+  padding: 0 1.5rem 0 1.5rem;
+}
+
+h2#title{
+  color: #fcbc56;
+}
+
+h3{
+  color: #fcbc56;
+  font-weight: lighter;
+  margin: 0.5rem 1.5rem;
+}
+
+h3#caption{
+  text-align: center;
+}
+
+ul#list{
+  font-size: large;
+  font-weight: lighter;
+  margin: 0 3rem 1.5rem 3rem;
+}
+
+ul#recreation{
+  font-weight: lighter;
+  margin: 0 3rem 1.5rem 6rem;
+}
+
+footer{
+  text-align: center;
+  padding: 25px;
+  color: #414a52;
+  background-color: white;
+}
+
+@media screen and (min-width:1000px){
+
+  nav ul li{
+    display: inline;
+    padding: 3rem;
+  }
+  
+  h2{
+    margin: 2rem 0 1rem 0;
+  }
+
+  div#container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem 3rem;
+    margin: 1rem;
+  }
+
+  h3{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  figure img{
+    width: 100%;
+    height: auto;
+  }
+
+  figcaption{
+    font-size: small;
+    font-weight: lighter;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 999px){
+
+  nav ul li{
+    display: inline;
+    padding: 2rem;
+  }
+
+  nav ul li a{
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+  h2{
+    margin: 2rem 0 1rem 0;
+  }
+
+  div#container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem 4rem;
+    margin-left: 2rem;
+  }
+
+  figure img{
+    width: 100%;
+    height: auto;
+  }
+
+  figcaption{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px){
+
+  nav ul{
+    display: grid;
+    width: 100%;
+    gap: 0.5rem;
+  }
+
+  nav ul li{
+    display: inline;
+    grid-template-rows: repeat(3, 1fr);
+    background-color: white;
+    border: 2px solid #414a52;
+    padding: 1rem;
+  }
+
+  nav ul li a{
+    color: #414a52;
+  }
+
+  h2{
+    padding-top: 1rem;
+  }
+
+  div#container{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem 2rem;
+    gap: 1rem;
+  }
+
+  h2{
+    margin: 2rem 0 1rem 0;
+  }
+
+  h3{
+    padding: 0.5rem 0 0.5rem 0;
+  }
+
+  figure img{
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+
+
+
+
+
