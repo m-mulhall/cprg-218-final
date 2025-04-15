@@ -120,11 +120,6 @@ footer{
     width: 100%;
     height: auto;
   }
-
-  figcaption{
-    font-size: small;
-    font-weight: lighter;
-  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 999px){
@@ -153,10 +148,6 @@ footer{
   figure img{
     width: 100%;
     height: auto;
-  }
-
-  figcaption{
-    text-align: center;
   }
 }
 
