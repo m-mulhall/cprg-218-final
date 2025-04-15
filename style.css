@@ -38,9 +38,9 @@ h1{
 }
 
 p{
-  font-size: medium;
+  font-size: large;
   font-weight: lighter;
-  padding: 1rem;
+  margin: 0.5rem 1rem 1rem 1rem;
   text-align: left;
 }
 
@@ -54,25 +54,33 @@ figcaption{
     text-align: center;
   }
   text-align: center;
-  font-size: medium;
-  font-weight: lighter;
 }
 
 h2{
   color: #fcbc56;
-  padding: 1rem;
+  padding: 0 1rem 0 1rem;
+}
+
+ul#list{
+  font-size: large;
+  font-weight: lighter;
+  margin: 0 3rem 1.5rem 3rem;
+}
+
+h2#testimonials{
+  color: white;
 }
 
 h3{
   color: #fcbc56;
   font-weight: lighter;
-}
-h3#caption{
-  text-align: center;
+  margin: 0.5rem 1.5rem;
+  text-decoration: underline;
 }
 
-section{
-  padding-left: 1rem;
+h3#caption{
+  text-align: center;
+  text-decoration: none;
 }
 
 footer{
@@ -165,7 +173,7 @@ footer{
     }
 
     h2{
-      padding-top: 1rem;
+      margin: 1rem 0 1rem 0;
     }
   
     div#container{
