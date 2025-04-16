@@ -32,6 +32,13 @@ nav ul li a{
   color: white;
 }
 
+ul li#temperature{
+  color: #414a52;
+  font-size: larger;
+  list-style-type: none;
+  padding: 0.5rem;
+}
+
 h1{
   color: white;
   padding: 1rem;
