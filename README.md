@@ -1,2 +1,2 @@
 # cprg-218-final
-cprg-218-final assignment
+All HTML, CSS and JavaScript written by Maria Rose Mulhall for CPRG-218-B Project: Final Project.
