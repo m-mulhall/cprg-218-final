@@ -98,6 +98,26 @@ footer{
   background-color: white;
 }
 
+@media screen and (min-width: 1000px) and (max-width: 3200px) {
+
+  nav ul li{
+    display: inline;
+    padding: 3rem;
+  }
+  
+  h2{
+    padding-top: 1rem;
+  }
+
+  div#container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    gap: 1rem 1rem;
+    margin: 2rem;
+  }
+}
+
 
 @media screen and (min-width:1000px){
 
