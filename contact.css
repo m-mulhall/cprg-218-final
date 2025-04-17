@@ -1,0 +1,119 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #414a52;
+  font-family: sans-serif;
+  color: white;
+}
+
+header{
+  padding-top: 1rem;
+  background-color: white;
+  justify-items: center;
+  text-align: center;
+}
+
+nav{
+  justify-items: center;
+  text-align: center;
+  background-color: #718ea7;
+  width: 100%;
+  padding: 1rem;
+}
+
+nav ul li a{
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+
+ul li#temperature{
+  color: #414a52;
+  font-size: larger;
+  list-style-type: none;
+  padding: 0.5rem;
+}
+
+h1{
+  color: white;
+  padding: 1rem;
+}
+
+h2{
+  color: #fcbc56;
+  padding: 0 1rem 0 1rem;
+}
+
+p{
+  font-size: large;
+  font-weight: lighter;
+  margin: 0.5rem 1rem 1rem 1rem;
+  text-align: left;
+}
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 1.5rem;
+  color: #414a52;
+  background-color: white;
+}
+
+@media screen and (min-width:1000px){
+
+  nav ul li{
+    display: inline;
+    padding: 3rem;
+  }
+  
+  h2{
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 999px){
+
+  nav ul li{
+    display: inline;
+    padding: 2rem;
+  }
+
+  nav ul li a{
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+  h2{
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 767px){
+
+  nav ul{
+    display: grid;
+    width: 100%;
+    gap: 0.5rem;
+  }
+
+  nav ul li{
+    display: inline;
+    grid-template-rows: repeat(3, 1fr);
+    background-color: white;
+    border: 2px solid #414a52;
+    padding: 1rem;
+  }
+
+  nav ul li a{
+    color: #414a52;
+  }
+}
+
